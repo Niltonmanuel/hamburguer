@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🍔 Financia o Meu Hambúrguer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#fafafa;
+color:#222;
+overflow-x:hidden;
+}
+
+header{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
+background:linear-gradient(135deg,#ffffff,#fff4e8);
+}
+
+.container{
+width:1200px;
+max-width:95%;
+}
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+gap:70px;
+}
+
+.hero h1{
+font-size:65px;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.hero span{
+color:#ff7b00;
+}
+
+.hero p{
+font-size:21px;
+color:#555;
+line-height:1.7;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+padding:18px 35px;
+background:#ff7b00;
+color:white;
+font-weight:600;
+text-decoration:none;
+border-radius:14px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-5px);
+box-shadow:0 20px 30px rgba(255,123,0,.3);
+}
+
+.burger{
+
+font-size:260px;
+text-align:center;
+animation:float 4s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%{transform:translateY(0);}
+50%{transform:translateY(-25px);}
+100%{transform:translateY(0);}
+
+}
+
+section{
+
+padding:90px 0;
+
+}
+
+.title{
+
+text-align:center;
+font-size:42px;
+margin-bottom:60px;
+
+}
+
+.features{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:30px;
+
+}
+
+.feature{
+
+background:white;
+padding:35px;
+border-radius:18px;
+text-align:center;
+box-shadow:0 15px 35px rgba(0,0,0,.07);
+transition:.3s;
+
+}
+
+.feature:hover{
+
+transform:translateY(-10px);
+
+}
+
+.feature i{
+
+font-size:55px;
+display:block;
+margin-bottom:20px;
+
+}
+
+.feature h3{
+
+margin-bottom:10px;
+
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:35px;
+
+}
+
+.card{
+
+background:white;
+border-radius:22px;
+padding:40px;
+box-shadow:0 20px 45px rgba(0,0,0,.08);
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card h2{
+
+font-size:28px;
+
+}
+
+.price{
+
+font-size:55px;
+font-weight:bold;
+color:#ff7b00;
+margin:25px 0;
+
+}
+
+.card p{
+
+margin-bottom:30px;
+color:#666;
+line-height:1.7;
+
+}
+
+.card a{
+
+display:block;
+text-align:center;
+
+}
+
+.progress-box{
+
+max-width:700px;
+margin:auto;
+text-align:center;
+
+}
+
+.progress{
+
+margin-top:20px;
+height:18px;
+background:#ddd;
+border-radius:50px;
+overflow:hidden;
+
+}
+
+.progress div{
+
+height:100%;
+width:45%;
+background:#ff7b00;
+
+}
+
+footer{
+
+background:#111827;
+color:white;
+padding:80px 20px;
+text-align:center;
+
+}
+
+footer h2{
+
+margin-bottom:20px;
+
+}
+
+footer p{
+
+max-width:700px;
+margin:auto;
+line-height:1.8;
+
+}
+
+@media(max-width:900px){
+
+.hero{
+
+grid-template-columns:1fr;
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:45px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.burger{
+
+font-size:180px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<div class="hero">
+
+<div>
+
+<h1>
+
+Financia o meu próximo <span>Hambúrguer 🍔</span>
+
+</h1>
+
+<p>
+
+Se algum vídeo, artigo ou conteúdo meu te ajudou a aprender Marketing Digital, Inteligência Artificial ou Empreendedorismo, podes apoiar este projeto oferecendo-me um hambúrguer.
+
+O teu apoio ajuda-me a produzir ainda mais conteúdo gratuito.
+
+</p>
+
+<a href="#menus" class="btn">
+
+🍔 Quero apoiar
+
+</a>
+
+</div>
+
+<div class="burger">
+
+🍔
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<section>
+
+<div class="container">
+
+<h2 class="title">
+
+O teu apoio ajuda a financiar
+
+</h2>
+
+<div class="features">
+
+<div class="feature">
+
+<i>🎥</i>
+
+<h3>Novos Vídeos</h3>
+
+<p>Mais conteúdo gratuito.</p>
+
+</div>
+
+<div class="feature">
+
+<i>📚</i>
+
+<h3>Livros</h3>
+
+<p>Aprendizagem contínua.</p>
+
+</div>
+
+<div class="feature">
+
+<i>🤖</i>
+
+<h3>Ferramentas IA</h3>
+
+<p>Software e automação.</p>
+
+</div>
+
+<div class="feature">
+
+<i>🍔</i>
+
+<h3>Hambúrgueres</h3>
+
+<p>Porque ninguém cria bom conteúdo com fome 😄</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="menus">
+
+<div class="container">
+
+<h2 class="title">
+
+Escolhe um Menu
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>🍔 Explorer</h2>
+
+<div class="price">
+
+200 MT
+
+</div>
+
+<p>
+
+Obrigado por acreditares neste projeto.
+
+</p>
+
+<a class="btn"
+
+href="https://checkout.debitopay.com/SEU-LINK-200"
+
+target="_blank">
+
+Oferecer Hambúrguer
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>🚀 Builder</h2>
+
+<div class="price">
+
+500 MT
+
+</div>
+
+<p>
+
+Estás a financiar vários conteúdos futuros.
+
+</p>
+
+<a class="btn"
+
+href="https://checkout.debitopay.com/SEU-LINK-500"
+
+target="_blank">
+
+Quero apoiar
+
+</a>
+
+</div>
+
+<div class="card">
+
+<h2>👑 Empire</h2>
+
+<div class="price">
+
+1000 MT
+
+</div>
+
+<p>
+
+Obrigado por acreditares na missão da NeoEmpire.
+
+</p>
+
+<a class="btn"
+
+href="https://checkout.debitopay.com/SEU-LINK-1000"
+
+target="_blank">
+
+Patrocinar
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<div class="progress-box">
+
+<h2>
+
+Meta deste mês
+
+</h2>
+
+<h3 style="margin-top:25px;">
+
+9 de 20 Hambúrgueres
+
+</h3>
+
+<div class="progress">
+
+<div></div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>
+
+Muito Obrigado ❤️
+
+</h2>
+
+<p>
+
+Mesmo que não possas contribuir financeiramente, partilhar os meus conteúdos com um amigo já faz uma enorme diferença.
+
+Cada partilha ajuda a NeoEmpire a chegar mais longe.
+
+</p>
+
+<br><br>
+
+<p>
+
+© 2026 • Nilton Manuel • NeoEmpire
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
